@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+.main {
+    width: 100%; /* Use percentage width for responsiveness */
+    background: url("https://live.staticflickr.com/1210/5101231150_9bd849ff34_b.jpg");
+    background-size: cover;
+    height: 100vh; /* Adjusted to 100vh for full viewport height */
+    overflow: hidden; /* Hide any content that exceeds the viewport */
+}
+
+.navbar {
+    width: 100%; /* Use percentage width to fill the entire viewport */
+    max-width: 1200px; /* Limit maximum width if needed */
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu {
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-left: 50px;
+    font-size: 34px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.SEARCH {
+    margin-left: 50px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 330px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #ff7200;
+    color: #ff7200; /* Change text color to contrast with background */
+    font-size: 24px;
+    padding-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    color: #fff;
+    font-size: 24px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:focus,
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 100%; /* Use percentage width for responsiveness */
+    max-width: 1200px; /* Limit maximum width if needed */
+    margin-top: 50px; /* Adjust margin-top as needed */
+    padding: 20px;
+    color: #ff7200; /* Text color */
+}
+
+.content h1, .content p {
+    font-size: 36px; /* Example font size */
+    /* Additional styles for h1 and p as needed */
+}
+.form {
+    width: 390px;
+    height: 500px; /* Adjusted height for illustration; adjust as needed */
+    background:rgb(0,0,0,0.461);
+    position: relative; /* Changed to relative positioning */
+    top: -275px; /* Adjusted top position to move form upwards */
+    margin-top: 20px; /* Added margin-top for spacing */
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: 1100px;
+}
+.butn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    color:#ff7200;
+    border: 2px solid #ff7200;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form .butn a {
+    text-decoration: none;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    padding: auto;
+}
+ .form .butn a:hover{
+    color: blueviolet;
+ }
